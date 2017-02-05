@@ -1,0 +1,11 @@
+---
+
+someone:
+  - "pocketmine.command.time"
+  - "pocketmine.command.list"
+  - "pocketmine.command.plugins"
+  - "pocketmine.command.reload"
+  - "pocketmine.command.version"
+  - "pocketmine.command.gamemode"
+
+...
