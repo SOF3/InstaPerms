@@ -42,12 +42,9 @@ class Main extends PluginBase implements CommandExecutor{
     }
   }
 
-  public function onCommand(CommandSender $sender, Command $cmd, $label, array$args){
-
+  public function onCommand(CommandSender $sender, Command $cmd, $label, array $args){
     switch($cmd){
-
       case "setperm":
-
         if(!isset($args[1])){
           $sender->sendMessage(self::PREFIX . TF::DARK_RED . "Usage: /setperm <player> <permission>");
         }else{
@@ -61,7 +58,6 @@ class Main extends PluginBase implements CommandExecutor{
         }
         return true;
         break;
-
         case "rmperm":
         if(!isset($args[1])){
           $sender->sendMessage(self::PREFIX . TF::DARK_RED . "Usage: /rmperm <player> <permission>");
@@ -80,7 +76,6 @@ class Main extends PluginBase implements CommandExecutor{
         }
         return true;
         break;
-
         case "seeperms":
         if(!isset($args[0])){
           $sender->sendMessage(self::PREFIX . TF::DARK_RED . "Usage: /seeperms <player>");
@@ -96,7 +91,6 @@ class Main extends PluginBase implements CommandExecutor{
         }
         return true;
         break;
-
       case "hasperm":
         if(!isset($args[1])){
           $sender->sendMessage(self::PREFIX . TF::DARK_RED . "Usage: /hasperm <player> <permission>");
@@ -112,14 +106,11 @@ class Main extends PluginBase implements CommandExecutor{
         }
         return true;
         break;
-
     }
     return true;
-
   }
 
   public function onDisable(){
     $this->getLogger()->info(self::PREFIX . TF::DARK_RED . "Disabled!");
   }
-
 }
