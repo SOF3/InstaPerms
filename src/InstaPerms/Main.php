@@ -1,6 +1,5 @@
 <?php
 
-
 /*
   InstaPerms by the BoxOfDevs Team (boxofdevs.com)
   Copyright © 2017 BoxOfDevs Team - BoxOfDevs General Software License 1.1.2
@@ -124,5 +123,3 @@ class Main extends PluginBase implements CommandExecutor{
   }
 
 }
-
-?>
