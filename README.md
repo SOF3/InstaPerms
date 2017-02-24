@@ -1,5 +1,6 @@
 # InstaPerms
-The instant permissions manager that really is instant! [![Poggit-CI](https://poggit.pmmp.io/ci.badge/BoxOfDevs/InstaPerms/InstaPerms)](https://poggit.pmmp.io/ci/BoxOfDevs/InstaPerms/InstaPerms)
+The instant permissions manager that really is instant!
+[![Poggit-CI](https://poggit.pmmp.io/ci.badge/BoxOfDevs/InstaPerms/InstaPerms)](https://poggit.pmmp.io/ci/BoxOfDevs/InstaPerms/InstaPerms)
 
 # Documentation
     Commands
